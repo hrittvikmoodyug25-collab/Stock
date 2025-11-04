@@ -9,7 +9,7 @@ from langgraph.prebuilt import ToolNode
 from tool import simple_screener
 
 # 2. Create LLM
-llm = ChatOllama(model='qwen2.5:14b')
+llm = ChatOllama(model='stock_hrit29')
 
 # 8. Create tool
 tools = [simple_screener]
